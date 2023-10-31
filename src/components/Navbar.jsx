@@ -9,8 +9,9 @@ const  Navbar = ()=> {
       <Link to='/'> 
        <img src="https://rb.gy/ulxxee" className='ml-10' width={150} height={150} alt="" />
       </Link>
+      
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;

@@ -5,7 +5,7 @@ import requests from '../constants/constants';
 
 function Home() {
   return (
-    <div>
+    <div className='w-screen' >
         <Main/>
         <Row rowID="2" title="Popular" fetchURL={requests.requests.requestPopular} />
         <Row rowID="3" title="Trending" fetchURL={requests.requests.requestTrending} />
